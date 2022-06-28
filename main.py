@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route("/")
 
 def index():
-    first_name = "Filipe"
+    first_name = "John"
     stuff = "Isto é <strong>negrito</strong>"
     favorite_pizza = ["Peperoni", "Cheese", "Mushrooms", 41]
     return render_template("index.html",
