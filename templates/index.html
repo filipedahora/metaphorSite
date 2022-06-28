@@ -1,0 +1,9 @@
+<h1> Hello World!</h1>
+
+<p>Esta é a minha primeira página da web</p>
+<p>Meu nome é {{ first_name }}</p>
+<p>{{ stuff|safe }}</p>
+<h1>Favorite Pizza:</h1>
+{% for topping in favorite_pizza %}
+    {{ topping }}</br></br>
+{% endfor %}
